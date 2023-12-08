@@ -1,2 +1,29 @@
-Exercise 1.1
+ <!-- Exercise 1.1 XML -->
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+    <catalogue type="Technical">
+        <book>
+            <ISBN>9781351013239</ISBN>
+            <title>Introduction to Python Programming</title>
+            <author>Gowrishankar S, Veena A</author>
+        </book>
+        <book>
+            <ISBN>1608058832</ISBN>
+            <title>Introduction to Computer Data Representation</title>
+            <author>Peter Fenwick</author>
+        </book>
+    </catalogue>
 
+    <catalogue type="Cookery">
+        <book>
+            <ISBN>9781119696773</ISBN>
+            <title>Cooking Basics For Dummies</title>
+            <author>Bryan Miller</author>
+        </book>
+        <book>
+            <ISBN>9781510764774</ISBN>
+            <title>THE EVERYDAY HEART-HEALTHY COOKBOOK</title>
+            <author>Breeana Pooler </author>
+        </book>
+    </catalogue>
+</library>
