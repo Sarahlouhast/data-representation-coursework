@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en_GB" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en_GB"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.9.9" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIQ02 - Exchequer Account (Historical Series) - Exchequer Account (Historical Series) - data.gov.ie</title>
+
+    
+    
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+    
+
+    <!--[if IE]>
+    <script src="/classList.min.js"></script>
+    <![endif]-->
+
+    
+    
+
+    
+    
+
+
+
+      
+      
+      
+    
+
+
+<link rel="stylesheet" href="/styles/impactstories.css">
+
+
+
+
+
+
+
+
+    
+    
+
+
+    
+    
+
+
+    
+      
+      
+    
+    
+    <meta property="og:title" content="FIQ02 - Exchequer Account (Historical Series) - Exchequer Account (Historical Series) - data.gov.ie">
+    <meta property="og:description" content="Exchequer Account (Historical Series)">
+
+
+    
+    <link href="/webassets/ckanext-pages/ff80043b_medium.css" rel="stylesheet"/>
+<link href="/webassets/vendor/f3b8236b_select2.css" rel="stylesheet"/>
+<link href="/webassets/vendor/0b01aef1_font-awesome.css" rel="stylesheet"/>
+<link href="/webassets/base/2471d0b8_main.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-featured/0b79b321_featured_css.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-dgithree/4068f437_mailchimp.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-dgithree/be55f5c5_cookieconsent.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-dgithree/b5bf1899_dgithree.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-dgithree/45049d1e_dgithree_less.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-harvest/c95a0af2_harvest_css.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-geoview/77c3ca23_geo-resource-styles.css" rel="stylesheet"/>
+    
+  </head>
+
+  
+  <body data-site-root="https://data.gov.ie/" data-locale-root="https://data.gov.ie/" >
+
+    
+    <div class="sr-only sr-only-focusable"><a href="#content">Skip to content</a></div>
+  
+
+  
+    
+    
+
+    <nav id="dgi-nav">
+        
+        <div class="container" style="position:relative; z-index:10;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar" style="background-color: white"></span>
+                    <span class="icon-bar" style="background-color: white"></span>
+                    <span class="icon-bar" style="background-color: white"></span>
+                </button>
+                <a class="brand" href="/"><img style="max-height: 100%; padding: 5px;" src="/img/dgi-logo-new.png" alt="Data.Gov.IE" title="Data.Gov.IE" rel="home"/></a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="top-navbar-collapse">
+                <div class="">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/dataset/">Datasets</a></li>
+                        <li><a href="/organization/">Publishers</a></li>
+                        
+                        <li><a href="/dataset/suggest">Suggest Data</a></li>
+                        <li><a href="/showcase">Showcases</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li role="separator" class="divider"></li>
+                                <li><a href="/blog">Latest News</a></li>
+                                <li><a href="/guide-for-publishers">Guide for Publishers </a></li>
+                                
+				                <li><a href="/pages/open-data-engagment-fund">Open Data Engagement Fund </a></li>
+                                
+                                <li><a href="/developers_corner">Developer's Corner</a></li>
+                                <li><a href="/developers">Developer Resources</a></li>
+                                <li><a href="/impact">Impact Stories</a></li>
+                                <li><a href="/haleandhearty">Hale and Hearty</a></li>
+
+                                
+                                <li><a target="_blank" rel="noopener noreferrer" href="https://ec.europa.eu/eusurvey/runner/opendatasurvey">Survey</a></li>
+                                
+                                <li role="separator" class="divider"></li>
+
+                                <li><a href="/resources">Resources & Publications</a></li>
+                                <li><a href="/formats">Formats</a></li>
+                                <li><a href="/resources/events">Events & Public Consultations</a></li>
+                                <li><a href="/pages/re-useofpublicsectorinformation">Re-Use of Public Sector Information</a></li>
+                                <li><a href="/license">Open Data Licence </a></li>
+                                
+                                <li><a href="/resources/open-data-governance-board">Open Data Governance Board</a></li>
+                                
+                                <li role="separator" class="divider"></li>
+
+                                <li><a href="/stats">Stats</a></li>
+                                <li><a href="/broken_links">Broken Links</a></li>
+                                <li><a href="/resources/useful-links">Useful Links</a></li>
+                                <li><a href="http://audit.data.gov.ie" target="_blank">Data Audit Tool</a></li>
+
+
+<!--                                <li role="separator" class="divider"></li>-->
+<!--                                <li><a href="/qa-report">QA Report</a></li>-->
+<!--                                <li><a href="/kpi-report">KPI Report</a></li>-->
+
+
+                            </ul>
+                        </li>
+                        
+                        
+                        
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#">EN/GA <span
+            class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+        
+        
+        <li><a href="/en_GB/dataset/fiq02-exchequer-account-historical-series/resource/d4948877-3566-42c4-9a71-18dbe3d6d09e">English</a></li>
+        
+        
+        
+        <li><a href="/ga/dataset/fiq02-exchequer-account-historical-series/resource/d4948877-3566-42c4-9a71-18dbe3d6d09e">Gaeilge</a></li>
+        
+        
+    </ul>
+</li>
+                        
+                        
+                        <li><a href="/user/login">Login</a></li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  
+
+<div role="main">
+    <div class="container-fluid no-padding">
+        
+        <div class="toolbar">
+            <div class="container">
+                
+                
+                <ol class="breadcrumb">
+                    
+<li class="home"><a href="/" aria-label="Home"><i class="fa fa-home"></i><span> Home</span></a></li>
+                    
+    
+  
+    
+    
+      
+      
+      <li><a href="/organization/">Publishers</a></li>
+      <li><a href="/organization/department-of-finance">Department of Finance</a></li>
+    
+    <li><a href="/dataset/fiq02-exchequer-account-historical-series">FIQ02 - Exchequer Account...</a></li>
+  
+
+    <li class="active"><a href="">Exchequer Account...</a></li>
+
+                </ol>
+                
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="content" class="container">
+        
+        
+        <div class="flash-messages">
+            
+            
+            
+        </div>
+        
+
+        <div class="row wrapper">
+            
+            
+    
+
+        <div class="module module-resource">
+            <div class="module-resource-content">
+                
+
+
+
+
+<div class="row">
+    <div class="col-md-8">
+        
+        <h1>
+            
+                FIQ02 - Exchequer Account (Historical Series)
+                
+                
+            
+        </h1>
+
+        
+            
+            
+        
+
+        
+            <div class="dataset-top-meta" style="font-size: 1em;">
+                <div>
+                    <h5>
+                        
+                            Published by: <strong>
+                            <a href="/organization/department-of-finance">
+                                Department of Finance
+                            </a></strong>
+                        
+
+                        
+
+                    </h5>
+                </div>
+
+                <div>
+                    <h5 property="dc:rights">
+                        
+                            
+                            
+                                Licensed under: <strong><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a></strong>
+                            
+                        
+                    </h5>
+                </div>
+
+                <div>
+                    <h5>Category:
+                        <a href="/dataset?theme=Government">
+                            <strong class="theme-color-government">
+                                Government
+                            </strong>
+                        </a>
+                    </h5>
+                </div>
+
+                <div>
+                    <h5>Views: <strong>14</strong></h5>
+                </div>
+
+                <div>
+                    <h5>Openness rating: 
+<div class="qa openness-3">
+    
+        <span title="One of the resource formats is 3-star data - machine-readable data in an open format." data-toggle="tooltip">
+            
+<span class="star-rating"><span class="star-rating-stars"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span></span></span> <br>
+    
+</div></h5>
+                </div>
+
+
+            </div>
+        
+
+    </div>
+
+    
+        
+    
+</div>
+
+<div class="row">
+    <div class="col-md-12 lolwhut">
+
+    <div class="notes embedded-content">
+      <p>Exchequer Account (Historical Series)</p>
+    </div>
+  
+
+    </div>
+</div>
+            </div>
+        </div>
+
+        <section class="module module-resource">
+            
+                <div class="module-resource-content">
+                    <div class="actions">
+                        
+                            <ul>
+                                
+  
+                                    
+                                    
+                                        <li>
+                                            <a target="_blank" download class="btn btn-primary resource-url-analytics resource-type-None" href="https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ02/XLSX/2007/en" onclick="var that=this;ga(&#39;send&#39;,&#39;event&#39;,&#39;resource&#39;,&#39;download&#39;,&#39;https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ02/XLSX/2007/en&#39;);setTimeout(function(){location.href=that.href;},200);return false;">
+                                                
+                                                    <i class="fa fa-arrow-circle-o-down"></i> Download
+                                                
+                                            </a>
+                                        </li>
+                                    
+                                    <script>
+                                     document.addEventListener("DOMContentLoaded", function () {
+                                             $('.resource-url-analytics').click(function () {
+   ga('send','event','resource','download',this.href);
+ })
+                                     });
+                                    </script>
+                                
+  
+
+                            </ul>
+                        
+                    </div>
+                    
+                        <h1>Resource: Exchequer Account (Historical Series)</h1>
+                        
+                            
+                                <p class="text-muted ellipsis">URL: <a class="resource-url-analytics" href="https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ02/XLSX/2007/en" title="https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ02/XLSX/2007/en">https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ02/XLSX/2007/en</a></p>
+                            
+                        
+                    <!-- Survey Modal -->
+
+
+<style>
+
+    #surveyModal .btn a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #surveyModal .btn a:hover {
+        text-decoration: none;
+    }
+
+    #surveyModal .modal-header {
+        background-color: #01aef0;
+        color: black;
+
+    }
+
+    #surveyModal .modal-title {
+        text-transform: uppercase;
+        color: white;
+        font-weight: 700;
+    }
+
+    #surveyModal .modal {
+        top: 160px;
+    }
+
+    #surveyModal .modal-sm {
+        width: 480px;
+        margin-top: 160px;
+    }
+
+    .modal-backdrop {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1 !important;
+        background-color: transparent;
+    }
+
+    .modal-backdrop in {
+        opacity: 0 !important;
+    }
+
+    .modal-helptext {
+        font-size: 0.8em;
+        float: right;
+    }
+
+    .btn-survey-yes {
+        background-color: #01aef0 !important;
+        width: 120px;
+        text-align: center;
+    }
+
+    .btn-survey-yes:hover {
+        background-color: #00a4e3;
+    }
+</style>
+
+
+
+<div id="surveyModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="center modal-title" id="myModalLabel">Help us improve Open Data</h4>
+            </div>
+            <div class="modal-body">
+                <div class="modal-text center">Help us measure open data impact by taking our short survey. We would love to find out more about how Open Data from data.gov.ie is being used,so that we can continue to improve the quality and relevance of datasets being published. All questions are optional.<br><br><span
+                        class="modal-helptext">Completion time: 3 mins</span></div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-survey-no" data-dismiss="modal">No</button>
+                
+                <button type="button" class="btn btn-primary btn-survey-yes"><a target="_blank"
+                                                                                href="https://ec.europa.eu/eusurvey/runner/opendatasurvey">Give Feedback</a>
+                </button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+            $('.resource-url-analytics').click(function () {
+                if (document.cookie.indexOf("name") > 0) {
+//                    console.log("Cookie present, not offering survey")
+                }
+                else {
+                    var CookieDate = new Date;
+                    CookieDate.setFullYear(CookieDate.getFullYear() + 10);
+                    document.cookie = "name=surveyed; expires=" + CookieDate.toUTCString() + "; path=/";
+                    $('#surveyModal').modal('show');
+                }
+            })
+        }
+    );
+</script>
+
+                        <div class="prose notes" property="rdfs:label">
+                            
+                        </div>
+                    
+                    
+                        
+                            
+                            
+                                <div class="resource-view">
+                                    
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+
+
+  <div id="view-0264a7d6-25e0-4c94-91f4-6d6a815ebee3" class="resource-view" data-id="0264a7d6-25e0-4c94-91f4-6d6a815ebee3" data-title="Preview" data-description="">
+  <div class="actions">
+    <a class="btn btn-default"
+       target="_blank"
+       href="https://data.gov.ie/dataset/fiq02-exchequer-account-historical-series/resource/d4948877-3566-42c4-9a71-18dbe3d6d09e/view/0264a7d6-25e0-4c94-91f4-6d6a815ebee3">
+      <i class="fa fa-arrows-alt"></i>
+      Fullscreen
+    </a>
+    <a class="btn btn-default"
+       href="#embed-0264a7d6-25e0-4c94-91f4-6d6a815ebee3"
+       data-module="resource-view-embed"
+       data-module-id="0264a7d6-25e0-4c94-91f4-6d6a815ebee3"
+       data-module-url="https://data.gov.ie/dataset/fiq02-exchequer-account-historical-series/resource/d4948877-3566-42c4-9a71-18dbe3d6d09e/view/0264a7d6-25e0-4c94-91f4-6d6a815ebee3">
+      <i class="fa fa-code"></i>
+      Embed
+    </a>
+  </div>
+  <p class="desc"></p>
+    <div class="m-top ckanext-datapreview">
+      
+      
+        <button id="fullscreeniframe" class="btn" style="position:absolute; right:5px; top:20px">Fullscreen</button>
+<iframe id="cvframe" src="//view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fws.cso.ie%2Fpublic%2Fapi.restful%2FPxStat.Data.Cube_API.ReadDataset%2FFIQ02%2FXLSX%2F2007%2Fen" frameborder="0" allowfullscreen="" width="100%" height="400px"></iframe>
+<script>
+// http://stackoverflow.com/questions/18901847/iframe-enter-fullscreen-mode
+(function(window, document){
+        var $ = function(selector,context){return(context||document).querySelector(selector)};
+
+        var iframe = $("iframe"),
+            domPrefixes = 'Webkit Moz O ms Khtml'.split(' ');
+
+        var fullscreen = function(elem) {
+            var prefix;
+            // Mozilla and webkit intialise fullscreen slightly differently
+            for ( var i = -1, len = domPrefixes.length; ++i < len; ) {
+              prefix = domPrefixes[i].toLowerCase();
+
+              if ( elem[prefix + 'EnterFullScreen'] ) {
+                // Webkit uses EnterFullScreen for video
+                return prefix + 'EnterFullScreen';
+                break;
+              } else if( elem[prefix + 'RequestFullScreen'] ) {
+                // Mozilla uses RequestFullScreen for all elements and webkit uses it for non video elements
+                return prefix + 'RequestFullScreen';
+                break;
+              }
+            }
+
+            return false;
+        };
+        // Webkit uses "requestFullScreen" for non video elements
+        var fullscreenother = fullscreen(document.createElement("iframe"));
+
+        if(!fullscreen) {
+            alert("Fullscreen won't work, please make sure you're using a browser that supports it and you have enabled the feature");
+            return;
+        }
+
+        $("#fullscreeniframe").addEventListener("click", function(){
+            // iframe fullscreen and non video elements in webkit use request over enter
+            iframe[fullscreenother]();
+        }, false);
+    })(this, this.document);
+</script>
+      
+    </div>
+    <div id="embed-0264a7d6-25e0-4c94-91f4-6d6a815ebee3" class="modal fade resource-view-embed">
+      <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">Embed resource view</h3>
+      </div>
+      <div class="modal-body">
+        <p class="embed-content">You can copy and paste the embed code into a CMS or blog software that supports raw HTML</p>
+        <div class="row">
+          <div class="col-md-6">
+            
+  <div class="form-group control-full">
+  <label class="control-label" for="width">Width</label>
+  <div class="controls ">
+  
+<input id="width" type="text" name="width" value="700" placeholder=""  class="form-control" />
+
+  
+  
+  </div>
+  </div>
+  
+
+          </div>
+          <div class="col-md-6">
+            
+  <div class="form-group control-full">
+  <label class="control-label" for="height">Height</label>
+  <div class="controls ">
+  
+<input id="height" type="text" name="height" value="400" placeholder=""  class="form-control" />
+
+  
+  
+  </div>
+  </div>
+  
+
+          </div>
+        </div>
+        
+  
+  
+  <div class="form-group pre control-full">
+  <label class="control-label" for="code">Code</label>
+  <div class="controls ">
+  
+  <textarea id="code" name="code" cols="20" rows="3" placeholder=""  class="form-control"></textarea>
+  
+  
+  
+  </div>
+  </div>
+  
+  
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+                                                
+                                            
+                                        
+                                    
+                                </div>
+                            
+                        
+                    
+                </div>
+            
+        </section>
+    
+
+
+            
+            <aside class="secondary col-sm-3">
+                
+                
+
+    
+        
+
+
+  
+    <section class="module module-narrow resources">
+      
+        
+          <h2 class="module-heading"><i class="fa fa-files-o"></i> Resources</h2>
+        
+        
+          <ul class="list-unstyled nav nav-simple">
+            
+              <li class="nav-item">
+                <a href="/dataset/fiq02-exchequer-account-historical-series/resource/5df9d9b4-5853-482d-bd9f-b09961962c09?inner_span=True">Exchequer Account...</a>
+              </li>
+            
+              <li class="nav-item">
+                <a href="/dataset/fiq02-exchequer-account-historical-series/resource/24833b36-fede-4e00-bf8d-f08c3e2abf10?inner_span=True">Exchequer Account...</a>
+              </li>
+            
+              <li class="nav-item">
+                <a href="/dataset/fiq02-exchequer-account-historical-series/resource/c271be80-97ae-425c-8557-93801474b8b0?inner_span=True">Exchequer Account...</a>
+              </li>
+            
+              <li class="nav-item active">
+                <a href="/dataset/fiq02-exchequer-account-historical-series/resource/d4948877-3566-42c4-9a71-18dbe3d6d09e?inner_span=True">Exchequer Account...</a>
+              </li>
+            
+          </ul>
+        
+      
+    </section>
+  
+
+    
+
+    <tr>
+            <th scope="row">License</th>
+            <td>
+
+
+  
+    
+  
+    <a href="https://creativecommons.org/licenses/by/4.0/" rel="dc:rights">Creative Commons Attribution 4.0</a>
+  
+
+  
+</td>
+          </tr>
+
+            </aside>
+            
+
+            
+            <div class="primary col-xs-12 col-sm-9">
+                
+                
+    
+        
+            <section class="module">
+                
+  <div class="module-content">
+    <h2>Additional Information</h2>
+    <table class="table table-striped table-bordered table-condensed" data-module="table-toggle-more">
+      <thead>
+        <tr>
+          <th scope="col">Field</th>
+          <th scope="col">Value</th>
+        </tr>
+      </thead>
+      <tbody><tr>
+            <th scope="row">Last updated</th>
+            <td>unknown</td>
+          </tr><tr>
+            <th scope="row">Created</th>
+            <td>unknown</td>
+          </tr><tr>
+            <th scope="row">Format</th>
+            <td>XLSX</td>
+          </tr><tr>
+            <th scope="row">License</th>
+            <td>
+
+
+  
+    
+  
+    <a href="https://creativecommons.org/licenses/by/4.0/" rel="dc:rights">Creative Commons Attribution 4.0</a>
+  
+
+  
+</td>
+          </tr><tr>
+                <th scope="row">Description</th>
+                <td></td>
+              </tr><tr>
+                <th scope="row">API response formats</th>
+                <td><ul></ul></td>
+              </tr><tr>
+                <th scope="row">API type</th>
+                <td></td>
+              </tr><tr>
+                <th scope="row">API access url</th>
+                <td></td>
+              </tr></tbody>
+    </table>
+  </div>
+
+            </section>
+        
+    
+
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+
+    
+<div class="footer">
+    <div class="container container-front">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact-details">
+                    <div class="col-md-4">
+                        <h3 class="footer-header">Contact Information</h3>
+                        <address>
+                            Open Data Unit<br/>
+                            <a style="color:#fff;" href="http://per.gov.ie">Department of Public Expenditure NDP Delivery and Reform</a>,<br/>
+                            4th Floor, St. Stephen’s Green House,<br/>
+                            Earlsfort Terrace,
+                            D02 PH42
+                            Dublin 2
+                            Ireland.
+                        </address>
+                        <br>
+                        <div>
+                            <a href="mailto:opendata@per.gov.ie">
+                                <p><span class="fa fa-envelope"></span> opendata@per.gov.ie </p>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="tel:35316767571">
+                                <p><span class="fa fa-phone"></span> +353 1 6767571 </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="footer-header">Give us feedback</h3>
+                        <p>The Open Data Unit values your feedback, questions or comments. We are always delighted to hear from you.</p>
+                        <div><button class="btn btn-danger btn-feedback"><a style="color:#fff;" href="/contact">GIVE US FEEDBACK</a></button></div>
+                        <br>
+                        <div>
+                            <a href="http://twitter.com/GovDataIE">
+                                <p><span class="fa fa-twitter"></span> @GovDataIE </p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="http://twitter.com/IRLDeptPER">
+                                <p><span class="fa fa-twitter"></span> @IRLDeptPER </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="footer-header"> </h3>
+                        <div>
+                            <p>Powered by
+                                <a href="http://ckan.org"><img id="ckan-logo" src="/img/ckan-logo.png"
+                                                               alt="CKAN logo"/></a>
+                            </p>
+                            <p>Site by
+                                <a style="color:#fff;" href="https://derilinx.com"><img id="derilinx-logo" src="/img/derilinxthumb.png"
+                                                                                        alt="Derilinx logo"/>Derilinx</a>
+                            </p>
+                            <p><a style="color:#fff;" href="/pages/cookie-and-privacy-policy">Cookie & Privacy Policy</a></p>
+                            <p><a style="color:#fff;" href="/pages/accessibility">Accessibility</a></p>
+                            <br><br>
+                            <p>
+                                <img src="/img/footer_white_logo_2.png" alt="" class="img img-responsive"
+                                     style="max-width:80%;max-height:100px;margin-left:-24px">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+  
+  
+  
+  
+
+    
+<script src="https://cdn.usefathom.com/script.js" data-site="TWPPJEGW" defer></script>
+
+
+<!--Force the navbar to be narrower due to extra chars in GA strings-->
+
+
+<!--End force-->
+
+<!--Multilingual cookie/consent text-->
+
+
+
+
+<script type="text/javascript">
+    function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+    
+    //<!--google analytics-->
+    if (getCookie("accept-cookie-policy") === "all" || getCookie("accept-cookie-policy") === "analytics") {
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-59685031-1', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+    };
+
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0NBPSTCVM1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0NBPSTCVM1');
+</script>
+
+
+
+      
+
+    
+    
+    
+    <script src="/webassets/vendor/d8ae4bed_jquery.js" type="text/javascript"></script>
+<script src="/webassets/vendor/fb6095a0_vendor.js" type="text/javascript"></script>
+<script src="/webassets/vendor/580fa18d_bootstrap.js" type="text/javascript"></script>
+<script src="/webassets/base/15a18f6c_main.js" type="text/javascript"></script>
+<script src="/webassets/ckanext-pages/68633da1_medium.js" type="text/javascript"></script>
+<script src="/webassets/base/2448af8b_ckan.js" type="text/javascript"></script>
+<script src="/webassets/ckanext-dgithree/1ae05c89_cookieconsent.js" type="text/javascript"></script>
+  </body>
+</html>
