@@ -1,7 +1,7 @@
 # Assignment 03
 # Task: Write a program that retrieves the dataset for the "exchequer account (historical series)" from the CSO, and stores it into a file called "cso.json".
 # Author: Sarah Hastings
-# Reference: 
+# References: 
 # https://www.w3schools.com/python/ref_requests_get.asp
 # https://www.w3schools.com/python/python_json.asp
 # https://nanonets.com/blog/web-scraping-with-python-tutorial/
@@ -26,13 +26,7 @@ def download_and_save_dataset(url, output_file):
     else:
         print(f"Failed to retrieve the dataset. Status code: {response.status_code}")
 
-# Main function
-def main():
-    # Enter requested dataset url here
-    url = 'https://data.gov.ie/dataset/fiq02-exchequer-account-historical-series/resource/d4948877-3566-42c4-9a71-18dbe3d6d09e'
-    # Specify output filename
-    download_and_save_dataset(url, "cso.json")
-
-# Check if the script is being run as the main program
-if __name__ == "__main__":
-    main()
+# Enter requested dataset url here
+url = 'https://data.gov.ie/dataset/fiq02-exchequer-account-historical-series/resource/d4948877-3566-42c4-9a71-18dbe3d6d09e'
+# Call the function, specify output filename
+download_and_save_dataset(url, "cso.json")
