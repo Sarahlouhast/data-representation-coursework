@@ -1,4 +1,3 @@
-### Programming for Data Representation Coursework
 ### Course: Higher Diploma in Data Analytics
 ### Module: Data Representation
 ### Year & Semester: 2023 - 02
@@ -8,13 +7,14 @@
 ***
 
 ### Contents of the repository
+
 This repository contains the coursework for the Data Representation Module Winter 2023:24 https://github.com/Sarahlouhast/data-representation-coursework.
 
 The repository contains an assignments folder of tasks completed during the semester and also a folder called labs.
 
 The assignments folder contains the following:
 * README.md
-* .gitignore (this will ignore my config file is stored locally for security purposes)
+* .gitignore (this will ignore my config.py file and is stored locally for security purposes)
 * Exercise 1.1
 * assignment03-cso
 * assignment04-github
