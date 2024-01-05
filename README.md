@@ -28,8 +28,6 @@ The assignments folder contains the following:
 
 4. Open the repository in VSC further details on this here, https://code.visualstudio.com/docs/sourcecontrol/github.
 
-5. Install Jupyter notebook by accessing the following https://jupyter.org/.
-
 ### References
 
 * https://www.w3schools.com/python/ref_requests_get.asp
